@@ -1,0 +1,62 @@
+.content {
+  color: black;
+  font-family: helvetica, arial;
+}
+h1, h2 {
+  color: rgb(79, 180, 226);
+  font-family: Georgia;
+}
+.content::after {
+  position: absolute;
+  right: 120px;
+  bottom: 120px;
+  width: 30px;
+  height: 30px;
+  content: url(images/jay_small.png);
+}
+
+th {
+    font-size: 2em;
+    text-align: left;
+    background: darkgray;
+    padding: .5em;
+}
+th:nth-child(3) {
+    font-size: 1.2em;
+}
+
+tr:nth-child(2n+1) {
+    background: lightgray;
+}
+td {
+    padding: .4em;
+}
+
+td pre {
+  font-size: 36px;
+}
+
+td:nth-child(1) {
+    font-size: 2em;
+    padding-left: .4em;
+}
+td:nth-child(3) {
+    font-size: 1.4em;
+    padding-left: .4em;
+}
+
+.bullets ul {
+  list-style: square url(images/jay_bullet_large.png);
+  list-style-position: inside;
+}
+
+.small ul {
+  list-style: square url(images/jay_bullet.png);
+  list-style-position: inside;
+}
+
+.bullets ul li {
+  text-align: left;
+  padding: 10px 90px;
+}
+
