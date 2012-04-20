@@ -34,7 +34,7 @@
     Adding box....
 
 !SLIDE commandline incremental
-# Init (create a Vagrantfile)
+# `vagrant init` 
 
     $ vagrant init lucid32
     A `Vagrantfile` has been placed in this directory. You are now
@@ -62,7 +62,7 @@
     [default] -- v-root: /vagrant
 
 !SLIDE commandline incremental
-# Use it
+# Use it `vagrant ssh`
 
     $ ls            # osx
     Vagrantfile README.md
