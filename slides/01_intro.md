@@ -4,6 +4,10 @@
 ### http://anders.janmyr.com
 ### @andersjanmyr
 
+!SLIDE center
+
+![vagrant.png](vagrant.png)
+
 
 !SLIDE bullets 
 # What is Vagrant?
